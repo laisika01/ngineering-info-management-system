@@ -2,65 +2,57 @@
 
 ## 1. 已知条件
 
-- 通径：\(D = 150\ \text{mm} = 0.15\ \text{m}\)
-- 出口压力（压差近似）：\(\Delta P = 0.25\ \text{MPa} = 2.5 \times 10^5\ \text{Pa}\)
-- 介质：水（\(\rho = 1000\ \text{kg/m}^3\)）
+- 通径：$D = 150\ \text{mm} = 0.15\ \text{m}$
+- 出口压力（压差近似）：$\Delta P = 0.25\ \text{MPa} = 2.5 \times 10^5\ \text{Pa}$
+- 介质：水（$\rho = 1000\ \text{kg/m}^3$）
 - 假设：忽略沿程损失和局部损失，压力能全部转为动能（理想估算）
 
 ## 2. 计算截面积
 
-\[
+$$
 A=\frac{\pi D^2}{4}
-\]
+$$
 
-\[
+$$
 A=\frac{\pi \times (0.15)^2}{4}
 =0.01767\ \text{m}^2
-\]
+$$
 
 ## 3. 根据压力计算流速
 
-\[
+$$
 v=\sqrt{\frac{2\Delta P}{\rho}}
-\]
+$$
 
-\[
+$$
 v=\sqrt{\frac{2 \times 2.5 \times 10^5}{1000}}
 =\sqrt{500}
 =22.36\ \text{m/s}
-\]
+$$
 
 ## 4. 计算体积流量
 
-\[
+$$
 Q=A \cdot v
-\]
+$$
 
-\[
+$$
 Q=0.01767 \times 22.36
 =0.395\ \text{m}^3/\text{s}
-\]
+$$
 
 ## 5. 单位换算
 
-- \[
-Q=0.395\ \text{m}^3/\text{s}
-\]
-- \[
-Q=0.395 \times 3600=1422\ \text{m}^3/\text{h}
-\]
-- \[
-Q=0.395 \times 1000=395\ \text{L/s}
-\]
-- \[
-Q=395 \times 60=23700\ \text{L/min}
-\]
+- $Q=0.395\ \text{m}^3/\text{s}$
+- $Q=0.395 \times 3600=1422\ \text{m}^3/\text{h}$
+- $Q=0.395 \times 1000=395\ \text{L/s}$
+- $Q=395 \times 60=23700\ \text{L/min}$
 
 ## 6. 结果
 
 - 理想体积流量：
-  - \(\mathbf{Q \approx 0.395\ \text{m}^3/\text{s}}\)
-  - \(\mathbf{Q \approx 1420\ \text{m}^3/\text{h}}\)
+  - **$Q \approx 0.395\ \text{m}^3/\text{s}$**
+  - **$Q \approx 1420\ \text{m}^3/\text{h}$**
 
 ## 7. 工程说明
 
